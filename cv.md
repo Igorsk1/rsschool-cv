@@ -4,13 +4,11 @@
 
 ### Junior Frontend Developer
 ---
-
 ### Contact information:
 
 - **Phone:** +380
 - **E-mail:** @gmail.com
 - **Telegram:** @
-
 ---
 
 ### Briefly About Myself:
