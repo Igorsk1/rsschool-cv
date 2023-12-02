@@ -10,6 +10,7 @@
 - **Telegram:** @
 ---
 ### Briefly About Myself:
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod non purus vel lacinia. Sed ornare eleifend dolor rhoncus molestie. Curabitur posuere turpis id felis sagittis, vel fringilla metus elementum. Nullam eget velit lobortis, pulvinar leo vel, tempus quam. Integer at urna eget nulla commodo sagittis quis quis quam. Quisque interdum urna ac risus varius sollicitudin.
 ---
 ### Skills & Proficiency:
