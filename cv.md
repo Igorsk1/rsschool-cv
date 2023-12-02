@@ -1,7 +1,5 @@
 # rsschool-cv
-
 ---
-
 ## Igor Igor
 
 ---
