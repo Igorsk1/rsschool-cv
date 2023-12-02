@@ -36,9 +36,10 @@ $c = $a + $b;
 ### Education:
 
 - **KNLU** - Master's Degree in Applied Linguistics
-- **Udemy** Vasyl Velmyk. Курс по Front-End. От основ JavaScript до React + Redux - [Udemy Certificate of Completion](https://certificates.cs50.io/5abe8729-a32c-47fa-88d7-7262b3cf5d24.pdf?size=letter)
 - **CS50** Harvard's Course - [CS50 Certificate of Completion](https://certificates.cs50.io/5abe8729-a32c-47fa-88d7-7262b3cf5d24.pdf?size=letter)
-- **CS50w** Web Programming with Python and JavaScript - [CS50w Certificate of Completion](https://certificates.cs50.io/5abe8729-a32c-47fa-88d7-7262b3cf5d24.pdf?size=letter)  
+- **CS50w** Web Programming with Python and JavaScript - [CS50w Certificate of Completion](https://certificates.cs50.io/5abe8729-a32c-47fa-88d7-7262b3cf5d24.pdf?size=letter)
+- **Udemy** Vasyl Velmyk. Курс по Front-End. От основ JavaScript до React + Redux - [Udemy Certificate of Completion](https://certificates.cs50.io/5abe8729-a32c-47fa-88d7-7262b3cf5d24.pdf?size=letter)
+
 ---
 
 ### Languages:
@@ -47,3 +48,4 @@ $c = $a + $b;
 - **German** - intermadiate (B1) [Certificate](https://drive.google.com/file/d/19UYq3MowFMnBrqhFyJkcN-xwBnzBS2FY/view)
 - **Russian** - native
 - **Ukrainian** - fluent
+---
