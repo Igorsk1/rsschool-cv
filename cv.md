@@ -3,7 +3,6 @@
 ## Igor Igor
 
 ### Junior Frontend Developer
-
 ---
 
 ### Contact information:
