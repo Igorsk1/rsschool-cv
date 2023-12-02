@@ -1,9 +1,7 @@
 # rsschool-cv
 ---
 ## Igor Igor
-
 ---
-
 ### Junior Frontend Developer
 
 ---
