@@ -7,6 +7,11 @@
 - **E-mail:** [i.sniegurov@gmail.com](mailto:i.sniegurov@gmail.com)
 - **GitHub:** [https://github.com/Igorsk1](https://github.com/Igorsk1)
 
+## About Me:
+
+I'm a good team worker and highly motivated person who is willing to learn new technologies and develop new skills required to become a front-end developer.
+I'm going to start my learning path in the world of web-development from the Rolling Scopes School
+
 ## Skills:
 
 - HTML, CSS
