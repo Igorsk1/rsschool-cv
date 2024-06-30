@@ -27,6 +27,15 @@ function typeOfSum(a, b) {
 }
 ```
 
+## Education:
+
+- **Kyiv National Linguistic University** - Master's degree in Applied Linguistics
+
+### Courses:
+
+- **RS School** - [JavaScript / Front-end Course Pre-school](https://rs.school/courses/javascript-preschool-ru) - in progress
+- **Udemy** - [Vasyl Velmyk. Курс по Front-End. От основ JavaScript до React + Redux](https://www.udemy.com/course/front-end-javascript-react-redux) - in progress
+
 ## Languages:
 
 - **English** - upper-intermediate
