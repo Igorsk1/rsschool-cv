@@ -1,14 +1,246 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 body {
-  font-size: 24px;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
   background: #f0f0f0;
 }
 
-header {
-    display: flex; 
-    flex-direction: column; 
-    background: rgb(250, 211, 112);
+h1, h2, ul,
+p, pre {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.yellow {
+  padding: 2px;
+  background: rgb(250, 211, 112);
+  box-shadow: 0px 0px 3px rgba(20, 28, 13, 0.5);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/** header */
+
+.header .container
+{
+  background: rgb(250, 211, 112);
+  box-shadow: 0px 0px 12px rgba(20, 28, 13, 0.5);
+  padding: 0 20px;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+} 
+
+.nav-item,
+.contacts .section-item {
+  list-style: none;  
+}
+
+.nav-link {
+  padding: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 70px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  padding: 8px;
+  box-shadow: 0px 0px 6px rgba(20, 28, 13, 0.5);
+  transition: .2s;
+}
+
+/** main */
+
+.section-item {
+  margin-left: 20px;
+} 
+
+.section-link:hover,
+.gh-link:hover {
+  color: rgb(144, 128, 38);
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #fafbfd;
+  box-shadow: 0px 0px 12px rgba(20, 28, 13, 0.5);
+}
+
+.section {
+  width: 50%;
+  padding: 0px 20px 40px;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  padding: 40px;
+}
+
+.profile-avatar {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px rgba(20, 28, 13, 0.5);
+}
+
+.section-profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile-title {
+  margin-bottom: 10px;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.section-subtitle {
+  font-size: 24px;
+}
+
+.contacts .section-item {
+  position: relative;
+  margin-left: 25px;
+}
+
+.contacts .section-item:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: -25px;
+  background-image: url(assets/svg/envelope.svg);
+  width: 17px;
+  height: 17px;
+}
+
+.contacts .section-item:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: -28px;
+  background-image: url(assets/svg/discord.svg);
+  width: 23px;
+  height: 23px;
+}
+
+.contacts .section-item:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -28px;
+  background-image: url(assets/svg/github.svg);
+  width: 23px;
+  height: 23px;
+}
+
+.code {
+  font-size: 18px;
+}
+
+.projects .section-link {
+	font-weight: 600;
+}
+
+/** footer */
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	padding: 15px 20px;
+  font-weight: 600;
+  background: rgb(250, 211, 112);
+  box-shadow: 0px 0px 12px rgba(20, 28, 13, 0.5);
+}
+
+.rss-logo {
+  width: 70px;
+  height: 26px;
+  background-image: url(./assets/svg/rs_school_js.svg);
+}
+
+.gh-link::before {
+  content: url('./assets/svg/icon-gh.svg');
+  position: relative;
+  top:5px;
+  right: 5px;
+}
+
+.gh-link:hover::before {
+  content: url('./assets/svg/icon-gh-hover.svg');
+}
+
+/** media  */
+
+@media (max-width: 768px) {
+  .main-container {
+	  display: flex;
+	  flex-wrap: wrap;
+	  flex-direction: column;
+  }
+
+  .profile {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  width: 100%;
+  }
+
+  .profile-avatar {
+	  margin-bottom: 15px;
+  }
+
+  .section {
+	  width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+	  display: flex;
+	  flex-direction: column;
+  }
+
+  .footer-container > *:not(:nth-child(3)){
+	  margin-bottom: 10px;
+  } 
 }
