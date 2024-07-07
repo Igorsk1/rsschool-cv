@@ -1,27 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-  	<link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Igor Sniegurov</h1>
-      <h2>Future Front-end Developer</h2>
-    </header>
-    <main>
-      <section>Contacts</section>
-       <section>About me</section>
-       <section>Contacts</section>
-       <section>Skills</section>
-       <section>Code</section>
-       <section>Projects</section>
-       <section>Education</section>
-       <section>Languages</section>
-    </main>
-    <footer></footer>
-  </body>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CV</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+		rel="stylesheet" />
+	<link rel="icon" href="./assets/favicon.ico" />
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<nav id="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+					<li class="nav-item"><a href="#about_me" class="nav-link">About me</a></li>
+					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+					<li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+					<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+					<li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+					<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="container main-container">
+			<section class="profile">
+				<img src="assets/avatar.png" alt class="profile-avatar" />
+				<div class="section-profile-title">
+					<h1 class="section-title profile-title">Ihor Sniehurov</h1>
+					<h2 class="section-subtitle">Future Front-end Developer</h2>
+				</div>
+			</section>
+
+			<section class="section contacts" id="contacts">
+				<h2 class="section-title"><span class="yellow">Contacts</span></h2>
+				<ul class="section-list">
+					<li class="section-item"><a href="mailto:i.sniegurov@gmail.com" class="section-link">i.sniegurov@gmail.com</a>
+					</li>
+					<li class="section-item"><a href="#">@Igorsk1</a></li>
+					<li class="section-item"><a href="http://github.com/Igorsk1" class="section-link">Igorsk1</a></li>
+				</ul>
+			</section>
+
+			<section class="section" id="about_me">
+				<h2 class="section-title"><span class="yellow">About me</span></h2>
+				<p>
+					I like to learn new technologies and improve my skills. My aim is to get a hands-on
+					experience and knowledge to try myself in the area of front-end developement
+				</p>
+			</section>
+
+			<section class="section" id="skills">
+				<h2 class="section-title"><span class="yellow">Skills<mark></h2>
+				<ul class="section-list">
+					<li class="section-item">HTML</li>
+					<li class="section-item">CSS</li>
+					<li class="section-item">JavaScript basics</li>
+					<li class="section-item">Git, GitHub</li>
+					<li class="section-item">VSCode</li>
+				</ul>
+			</section>
+
+			<section class="section" id="code">
+				<h2 class="section-title"><span class="yellow">Code example</span></h2>
+				<pre><code class="code">function dataReverse(data) {
+  let arr = [];
+  while (data.length) {
+    arr.unshift(data.splice(0, 8));
+  }
+  return arr.flat();
+}</code></pre>
+			</section>
+
+			<section class="section projects" id="projects">
+				<h2 class="section-title"><span class="yellow">Projects</span></h2>
+				<ul class="section-list">
+					<li class="section-item"><a href="https://Igorsk1.github.io/rsschool-cv/" class="section-link">CV</a></li>
+				</ul>
+			</section>
+
+			<section class="section" id="courses">
+				<h2 class="section-title"><span class="yellow">Courses</span></h2>
+				<ul class="section-list">
+					<li class="section-item"><span class="bold">RS School</span> - <a
+							href="https://rs.school/courses/javascript-preschool-ru" class="section-link">JavaScript / Front-end
+							Course
+							Pre-school RU</a> - in progress</li>
+					<li class="section-item"><span class="bold">Udemy</span> - <a
+							href="https://www.udemy.com/course/front-end-javascript-react-redux/" class="section-link">Курс по
+							Front-End. От
+							основ JavaScript до React + Redux</a> - in progress
+				</ul>
+			</section>
+
+			<section class="section" id="education">
+				<h2 class="section-title"><span class="yellow">Education</span></h2>
+				<ul class="section-list">
+					<li class="section-item"><span class="bold">Kyiv National Linguistic University</span></li>
+					<ul>
+						<li class="section-item">Master's degree in Applied Linguistics</li>
+					</ul>
+				</ul>
+			</section>
+
+
+			<section class="section" id="languages">
+				<h2 class="section-title"><span class="yellow">Languages</span></h2>
+				<ul class="section-list">
+					<li class="section-item"><span class="bold">English</span> - C1 - <a href="https://cert.efset.org/buGSuw"
+							class="section-link">EF SET Test
+							Certificate</a></li>
+					<li class="section-item"><span class="bold">German</span> - B1.2</li>
+				</ul>
+			</section>
+		</div>
+	</main>
+
+	<footer>
+		<div class="container footer-container">
+			<div>2024</div>
+			<a href="https://rs.school/courses/javascript-ru" class="rss-logo"><img src="assets/svg/rs_school.svg"
+					alt="Rolling-Scopes-school-logo" /></a>
+			<a href="https://github.com/igorsk1" class="gh-link">Igorsk1</a>
+		</div>
+	</footer>
+</body>
+
 </html>
