@@ -65,7 +65,17 @@
 				</ul>
 			</section>
 
-			<section>Code</section>
+			<section class="section" id="code">
+				<h2 class="section-title"><span class="yellow">Code example</span></h2>
+				<pre><code class="code">function dataReverse(data) {
+  let arr = [];
+  while (data.length) {
+    arr.unshift(data.splice(0, 8));
+  }
+  return arr.flat();
+}</code></pre>
+			</section>
+
 			<section>Projects</section>
 			<section>Education</section>
 			<section>Languages</section>
