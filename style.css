@@ -205,10 +205,6 @@ a {
   right: 5px;
 }
 
-.gh-link:hover::before {
-  content: url('./assets/svg/icon-gh-hover.svg');
-}
-
 /** media  */
 
 @media (max-width: 768px) {
