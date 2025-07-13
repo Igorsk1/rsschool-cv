@@ -37,8 +37,8 @@ function dataReverse(data) {
 
 ## Projects:
 
-- [CV] (https://igorsk1.github.io/rsschool-cv)
-- [Christmas-shop] (https://rolling-scopes-school.github.io/igorsk1-JSFE2024Q4/christmas-shop/)
+- [CV](https://igorsk1.github.io/rsschool-cv)
+- [Christmas-shop](https://rolling-scopes-school.github.io/igorsk1-JSFE2024Q4/christmas-shop/)
 
 ## Education:
 
