@@ -10,7 +10,7 @@
 
 ## About Me:
 
-I like to learn new technologies and improve my skills. My aim is to get a hands-on experience and knowledge to try myself in the area of front-end developement.
+I like learning new technologies and improving my skills. My aim is to gain hands-on experience and knowledge to become a professional front-end developer.
 
 ## Skills:
 
@@ -23,13 +23,22 @@ I like to learn new technologies and improve my skills. My aim is to get a hands
 
 ```
 function dataReverse(data) {
-  let arr = [];
-  while (data.length) {
-    arr.unshift(data.splice(0, 8));
+  const chunkSize = 8;
+  const res = [];
+
+  for (let i = data.length; i > 0; i -= chunkSize) {
+    let chunk = data.slice(i - chunkSize, i);
+    res.push(chunk);
   }
-  return arr.flat();
+
+  return res.flat();
 }
 ```
+
+## Projects:
+
+- [CV] (https://igorsk1.github.io/rsschool-cv)
+- [Christmas-shop] (https://rolling-scopes-school.github.io/igorsk1-JSFE2024Q4/christmas-shop/)
 
 ## Education:
 
@@ -37,11 +46,9 @@ function dataReverse(data) {
 
 ### Courses:
 
-- **RS School** - [JavaScript / Front-end Course Pre-school 2024Q2](https://rs.school/courses/javascript-preschool-ru)
-- **RS School** - [JavaScript / Front-end Course Pre-school](https://rs.school/courses/javascript) - in progress
-- **Udemy** - [Vasyl Velmyk. Курс по Front-End. От основ JavaScript до React + Redux](https://www.udemy.com/course/front-end-javascript-react-redux) - in progress
+- **RS School** - [JavaScript / Front-end Pre-school RU Course 2025Q2](https://rs.school/courses/javascript-preschool-ru) - in progress
 
 ## Languages:
 
-- **English** - C1 - [EF SET Test Certificate](https://cert.efset.org/buGSuw)
+- **English** - B2 - [EF SET Test Certificate](https://cert.efset.org/buGSuw)
 - **German** - B1.2
