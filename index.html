@@ -73,11 +73,15 @@
       <section class="section" id="code">
         <h2 class="section-title"><span class="yellow">Code example</span></h2>
         <pre><code class="code">function dataReverse(data) {
-  let arr = [];
-  while (data.length) {
-    arr.unshift(data.splice(0, 8));
+  const chunkSize = 8;
+  const res = [];
+
+  for (let i = data.length; i > 0; i -= chunkSize) {
+    let chunk = data.slice(i - chunkSize, i);
+    res.push(chunk);
   }
-  return arr.flat();
+
+  return res.flat();
 }</code></pre>
       </section>
 
